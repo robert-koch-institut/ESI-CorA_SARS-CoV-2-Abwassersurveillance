@@ -47,7 +47,8 @@ Zunächst wurde in ArcGIS für jede Probe ein Mittelwert der Viruslast (Genkopie
 
 Eine Verdünnung des Abwassers, zum Beispiel aufgrund von Regenereignissen oder unregelmäßigen industriellen Einflüssen, kann zu geringeren oder höheren Konzentrationen von SARS-CoV-2 führen. Um diese externen Einflüsse zu berücksichtigen, kann die gemessene Viruslast durch den Durchfluss oder andere Humanmarker wie z. B. CrAssphage oder PMMoV normalisiert werden.
 
-Im ESI-CorA-Projekt wurde nach dem Abwasserdurchfluss normalisiert. Folgende Formel wurde hierbei verwendet: 
+Im ESI-CorA-Projekt wurde nach dem Abwasserdurchfluss normalisiert. Folgende Formel wurde hierbei verwendet:  
+
 $$ Gene_{Mittelwert\_normalisiert} = Gene_{Mittelwert} \cdot Volumenstrom \cdot 86400000 $$
 
 ### Datenauswertung
