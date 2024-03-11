@@ -1,14 +1,12 @@
 Datensatzdokumentation  
-# ESI-CorA: SARS-CoV-2-Abwassersurveillance 
+# ESI-CorA: SARS-CoV-2-Abwassersurveillance  
 
-<br>
-<br>
 
-**Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD-Kontaktstelle**<sup>1</sup> 
+[Robert Koch-Institut](https://rki.de) | RKI  
+Nordufer 20   
+13353 Berlin   
 
-&emsp;<sup>1</sup> [Robert Koch-Institut | RKI](https://rki.de)  
-  
-<br>
+**Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD-Kontaktstelle** 
 <br>
 
 **Zitieren**   
@@ -21,13 +19,9 @@ Robert Koch-Institut, Fachgebiet 32 (2024): "ESI-CorA: SARS-CoV-2-Abwassersurvei
 Das Vorhaben „Emergency Support Instrument - Nachweis von SARS-CoV-2 im Abwasser“ (ESI-CorA) lief von November 2021 bis März 2023. Zwanzig Kläranlagenstandorte wurden in Deutschland ausgewählt, die im Februar 2022 gestaffelt mit der Überwachung von SARS-CoV-2 im Abwasser begonnen haben. Das zentrale Ziel in ESI-CorA war die Vorbereitung und Durchführung der bundesweiten Pilotphase zur Überwachung von SARS-CoV-2 und seiner Varianten im Abwasser. Unter anderem wurde das Verfahren zur Normalisierung der Rohdaten, der angewandten PCR-Analytik und der Berechnung der Trenddynamiken untersucht. 
 Abwassersurveillance ist die systematische Überwachung von Erregern im Abwasser mit dem Ziel Gesundheitsschutzmaßnahmen zu steuern. Abwasserdaten erlauben keine genaue Einschätzung von Krankheitsschwere oder Belastung des Gesundheitssystems. Bei der epidemiologischen Bewertung sollten die Daten stets mit anderen Indikatoren, z.B. aus der syndromischen Surveillance, gemeinsam bewertet werden. Weitere Informationen sind im [ESI-CorA Projektblatt](https://www.ptka.kit.edu/img/Projektblatt_ESI-CorA.pdf) des Karlsruher Instituts für Technologie (KIT) zu finden.
 
-<figure>
-  <img
-  src="https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/.github/pictures/standorte.png"
-  alt="Standorte ESI-CorA">
-</figure>
- 
-Im hier veröffentlichten Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance " wird die normalisierte SARS-CoV-2-Viruslast von den 20 EU-geförderten Pilotstandorten im ESI-CorA-Projekt für den oben beschriebenen Zeitraum bereitgestellt.
+![Standorte ESI-CorA](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/.github/pictures/standorte.png?raw=true "Standorte ESI-CorA")
+
+Im hier veröffentlichten Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance" wird die normalisierte SARS-CoV-2-Viruslast von den 20 EU-geförderten Pilotstandorten im ESI-CorA-Projekt für den oben beschriebenen Zeitraum bereitgestellt.
 
 ### Administrative und organisatorische Angaben
 Die Europäische Kommission hat das Pilotprojekt gefördert und gemeinsam mit dem Bundesministerium für Gesundheit (BMG), dem Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) sowie vom Bundesministerium für Bildung und Forschung (BMBF) verfolgt. Koordiniert wurde das Projekt vom Karlsruher Institut für Technologie (KIT), Projektträger Karlsruhe (PTKA). Konsortialpartner waren das Umweltbundesamt (UBA), das RKI und die Technische Universität Darmstadt (TUDa). 
@@ -41,11 +35,7 @@ Im Rahmen des Projekts wurden detaillierte Handreichungen zur Probennahme und La
 An jeder der 20 EU-geförderten Kläranlagen wurden in aller Regel zwei Mal pro Woche Rohabwasserproben entnommen und zusammen mit den entsprechenden Begleitparametern (z.B. Wetterdaten, Volumenstrom, pH-Wert, Temperatur), die notwendig für die Charakterisierung der Abwassersituation während der Probenahme waren, erhoben. Rohabwasserproben sollten nach dem Sandfang der Kläranlage entnommen werden. Das Probenahmevolumen sollte einen Liter betragen und in luftdichte, verschließbare Polyethylenflaschen abgefüllt werden. Eine 24-Stunden-Mischprobe wurde bevorzugt, die mit einem automatisierten Probennehmer durchgeführt wurde. Die Beprobung sollte möglichst von Montag auf Dienstag und von Mittwoch auf Donnerstag durchgeführt werden. 
 Die Rohabwasserproben wurden an entsprechende Labore versandt, wo die Aufkonzentrierung, Extraktion der viralen Nukleinsäure und Quantifizierung der viralen Gensequenzen durch dPCR oder qRT-PCR erfolgte. Mindestens zwei repräsentative SARS-CoV-2-Genfragmente (N1, N2, N3, E, ORF oder RdRp) sollten bestimmt werden. 
 
-<figure>
-  <img
-  src="https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/.github/pictures/pipeline.png"
-  alt="Datenfluss ESI-CorA">
-</figure>
+![Datenfluss ESI-CorA](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/.github/pictures/pipeline.png?raw=true "Datenfluss ESI-CorA")
  
 Für das Datenmanagement wurde eine digitale Dateninfrastruktur genutzt, die auf ArcGIS Online von ESRI basiert. Die Daten wurden zunächst mit der ArcGIS Survey123 App, welche als mobile App oder am Computer im Browser zu bedienen ist, in die Dateninfrastruktur eingepflegt. Die Kläranlage, die die Probe entnommen hat, hat den Datensatz angelegt und die Angaben zur Probennahme entsprechend eingetragen. Die Labornachweise konnten im nächsten Schritt erfasst werden dem Probendatensatz über eine eindeutige Proben-ID zugeordnet werden. 
 
@@ -58,7 +48,7 @@ Zunächst wurde in ArcGIS für jede Probe ein Mittelwert der Viruslast (Genkopie
 Eine Verdünnung des Abwassers, zum Beispiel aufgrund von Regenereignissen oder unregelmäßigen industriellen Einflüssen, kann zu geringeren oder höheren Konzentrationen von SARS-CoV-2 führen. Um diese externen Einflüsse zu berücksichtigen, kann die gemessene Viruslast durch den Durchfluss oder andere Humanmarker wie z. B. CrAssphage oder PMMoV normalisiert werden.
 
 Im ESI-CorA-Projekt wurde nach dem Abwasserdurchfluss normalisiert. Folgende Formel wurde hierbei verwendet: 
-$$Gene\\\_Mittelwert\\\_normalisiert [gc/d] = Gene\\\_Mittelwert [gc/ml] * Volumenstrom [l/s] * 86.400.000$$
+$$ Gene_{Mittelwert\_normalisiert} = Gene_{Mittelwert} \cdot Volumenstrom \cdot 86400000 $$
 
 ### Datenauswertung
 
@@ -96,7 +86,7 @@ Die Abwasserdaten enthalten die in der folgenden Tabelle abgebildeten Variablen 
 | Bundesland| String | ```Baden-Württemberg``` <br /> ```Bayern``` <br /> ```Berlin``` <br /> ... <br /> ```Thüringen```| Bundesland in der sich die Kläranlage befindet |
 | Standort | String | | Name der Kläranlage bzw. des Orts |
 | Datum | Datum | `jjjj-mm-tt` | Startdatum der Probenahme an der Kläranlage.  |
-| Genkopien_normalisiert | Ganze Zahl | >=0 | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+| Genkopien_normalisiert | Ganze Zahl | `≥0` | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
 
 ### Formatierung 
 
