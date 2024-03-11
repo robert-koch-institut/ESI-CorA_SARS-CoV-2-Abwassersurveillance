@@ -1,0 +1,119 @@
+{
+  "resource": {
+    "classification": {
+      "type": "Dataset"
+    },
+    "collection": [
+      "Robert Koch Institute"
+    ],
+    "descriptions": [
+      {
+        "language": "DE (German)",
+        "text": "Das Vorhaben „Emergency Support Instrument - Nachweis von SARS-CoV-2 im Abwasser“ (ESI-CorA) lief von November 2021 bis März 2023. Zwanzig Kläranlagenstandorte wurden in Deutschland ausgewählt, die im Februar 2022 gestaffelt mit der Überwachung von SARS-CoV-2 im Abwasser begonnen haben. Das zentrale Ziel in ESI-CorA war die Vorbereitung und Durchführung der bundesweiten Pilotphase zur Überwachung von SARS-CoV-2 und seiner Varianten im Abwasser. Unter anderem wurde das Verfahren zur Normalisierung der Rohdaten, der angewandten PCR-Analytik und der Berechnung der Trenddynamiken untersucht.\nWeitere Informationen sind im ESI-CorA Projektblatt (https://www.ptka.kit.edu/img/Projektblatt_ESI-CorA.pdf) des Karlsruher Instituts für Technologie (KIT) zu finden."
+      }
+    ],
+    "titles": [
+      {
+        "language": "DE (German)",
+        "text": "ESI-CorA: SARS-CoV-2-Abwassersurveillance"
+      }
+    ],
+    "ids": [
+      {
+        "identifier": "10.5281/zenodo.10781653",
+        "typeGeneral": "Dataset",
+        "relationType": "A references B",
+        "scheme": "DOI"
+      },
+      {
+        "identifier": "https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance",
+        "relationType": "A references B",
+        "typeGeneral": "Dataset",
+        "scheme": "URL"
+      }
+    ],
+    "provenance": {
+      "dataSource": "Automatically uploaded: Other"
+    },
+    "keywords": [
+      {
+        "label": "COVID-19",
+        "code": "D000086382"
+      },
+      {
+        "label": "SARS-CoV-2",
+        "code": "D000086402"
+      },
+      {
+        "label": "Abwasserbasierte epidemiologische Überwachung",
+        "code": "D000079686"
+      },
+      {
+        "label": "Wastewater-Based Epidemiological Monitoring",
+        "code": "D000079686"
+      },
+      {
+        "label": "Epidemiologie",
+        "code": "info:ddc/22/de//614.4"
+      },
+      {
+        "label": "Gesundheitsberichterstattung",
+        "code": "info:ddc/22/de//614.42"
+      },
+      {
+        "label": "Public health surveillance",
+        "code": "info:ddc/22/eng//614.42"
+      },
+      {
+        "label": "Epidemiology",
+        "code": "info:ddc/22/eng//614.4"
+      },
+      {
+        "label": "Deutschland"
+      },
+      {
+        "label": "Germany"
+      },
+      {
+        "label": "Open Data"
+      },
+      {
+        "label": "Offene Daten"
+      },
+      {
+        "label": "RKI"
+      }
+    ],
+    "languages": [
+      "DE (German)"
+    ],
+    "nonStudyDetails": {
+      "useRights": {
+        "confirmations": {
+          "authority": true,
+          "irrevocability": true,
+          "terms": true,
+          "supportByLicensing": true
+        },
+        "label": "CC BY 4.0 (Creative Commons Attribution 4.0 International)"
+      },
+      "version": "2024-03-11"
+    },
+    "webpage": "https://robert-koch-institut.github.io/ESI-CorA-SARS-CoV-2-Abwassersurveillance",
+    "contributors": [
+      {
+        "affiliations": [
+          {
+            "name": "Robert Koch-Institut"
+          }
+        ],
+        "nameType": "Personal",
+        "personal": {
+          "type": "Creator/Author",
+          "givenName": "Fachgebiet 32",
+          "familyName": "Robert Koch-Institut"
+        }
+      }
+    ]
+  }
+}
