@@ -1,0 +1,24 @@
+{
+  "fields": [
+    {
+      "name": "Bundesland",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "Standort",
+      "type": "string",
+      "constraints": {}
+    },
+    {
+      "name": "Datum",
+      "type": "date",
+      "constraints": {}
+    },
+    {
+      "name": "Genkopien_normalisiert",
+      "type": "integer",
+      "constraints": {}
+    }
+  ]
+}

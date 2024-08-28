@@ -1,0 +1,16 @@
+{
+  "name": "esi-cora_sars-cov-2-abwassersurveillance",
+  "title": "ESI-CorA_SARS-CoV-2-Abwassersurveillance",
+  "description": "Frictionless data package. This package lists and describes all data files in this open data repository. For more information on frictionless data, see https://specs.frictionlessdata.io/ and https://framework.frictionlessdata.io/.",
+  "resources": [
+    {
+      "name": "esi-cora_abwassersurveillance",
+      "type": "table",
+      "path": "../../ESI-CorA_Abwassersurveillance.tsv",
+      "scheme": "file",
+      "format": "tsv",
+      "mediatype": "text/csv",
+      "schema": "frictionless_data_schema_ESI-CorA_Abwassersurveillance.json"
+    }
+  ]
+}
