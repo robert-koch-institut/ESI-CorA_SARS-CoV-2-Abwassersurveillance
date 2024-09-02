@@ -87,7 +87,7 @@ Die Abwasserdaten enthalten die in der folgenden Tabelle abgebildeten Variablen 
 | Bundesland| String | ```Baden-Württemberg``` <br /> ```Bayern``` <br /> ```Berlin``` <br /> ... <br /> ```Thüringen```| Bundesland in der sich die Kläranlage befindet |
 | Standort | String | | Name der Kläranlage bzw. des Orts |
 | Datum | Datum | `jjjj-mm-tt` | Startdatum der Probenahme an der Kläranlage.  |
-| Genkopien_normalisiert | Ganze Zahl | `≥0` | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+| Genkopien_normalisiert | Rationale Zahl | `≥0` | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
 
 ### Formatierung 
 

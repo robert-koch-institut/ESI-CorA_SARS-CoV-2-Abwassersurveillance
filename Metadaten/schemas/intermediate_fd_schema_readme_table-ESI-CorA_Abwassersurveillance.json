@@ -13,11 +13,12 @@
     {
       "name": "Datum",
       "type": "date",
-      "description": "Startdatum der Probenahme an der Kläranlage."
+      "description": "Startdatum der Probenahme an der Kläranlage.",
+      "format": "%Y-%m-%d"
     },
     {
       "name": "Genkopien_normalisiert",
-      "type": "integer",
+      "type": "number",
       "description": "SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter)",
       "constraints": {
         "minimum": 0
