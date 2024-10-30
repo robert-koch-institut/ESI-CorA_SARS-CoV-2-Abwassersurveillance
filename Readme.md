@@ -87,7 +87,11 @@ Die Abwasserdaten enthalten die in der folgenden Tabelle abgebildeten Variablen 
 | Bundesland             | string |                      | Bundesland in der sich die Kläranlage befindet                               |
 | Standort               | string |                      | Name der Kläranlage bzw. des Orts                                            |
 | Datum                  | date   | Format: `YYYY-MM-DD` | Startdatum der Probenahme an der Kläranlage.                                 |
-| Genkopien_normalisiert | number | Minimum: 0           | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+| Genkopien_normalisiert | number | Werte: ≥0            | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+
+
+
+
 
 Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_ESI-CorA_Abwassersurveillance.json`](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_ESI-CorA_Abwassersurveillance.json).
 
