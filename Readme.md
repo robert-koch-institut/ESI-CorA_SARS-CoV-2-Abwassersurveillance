@@ -82,6 +82,12 @@ Die Daten zur SARS-CoV-2-Viruslast im Abwasser der ESI-CorA-Standorte sind nach 
 
 Die Abwasserdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
 
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "ESI-CorA_Abwassersurveillance", "lang": "de"} -->
+
+Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/ESI-CorA_Abwassersurveillance.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_ESI-CorA_Abwassersurveillance.json) hinterlegt:
+> [frictionless_data_schema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_ESI-CorA_Abwassersurveillance.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
 | Variable               | Typ    | Ausprägungen         | Beschreibung                                                                 |
 |:-----------------------|:-------|:---------------------|:-----------------------------------------------------------------------------|
 | Bundesland             | string |                      | Bundesland in der sich die Kläranlage befindet                               |
@@ -89,11 +95,14 @@ Die Abwasserdaten enthalten die in der folgenden Tabelle abgebildeten Variablen 
 | Datum                  | date   | Format: `YYYY-MM-DD` | Startdatum der Probenahme an der Kläranlage.                                 |
 | Genkopien_normalisiert | number | Werte: ≥0            | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
 
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
 
 
 
 
-Eine maschinenlesbares Datenschema zu diesem Datensatz finden sie in der Datei [`frictionless_data_schema_ESI-CorA_Abwassersurveillance.json`](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_ESI-CorA_Abwassersurveillance.json).
+
 
 
 ### Formatierung 
