@@ -80,8 +80,6 @@ Die Daten zur SARS-CoV-2-Viruslast im Abwasser der ESI-CorA-Standorte sind nach 
 
 #### Variablen und Variablenausprägungen  
 
-Die Abwasserdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
-
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "ESI-CorA_Abwassersurveillance", "lang": "de"} -->
 
 Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/ESI-CorA_Abwassersurveillance.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_ESI-CorA_Abwassersurveillance.json) hinterlegt:
@@ -98,11 +96,6 @@ Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-ins
 <!-- DATA_SCHEMA_TABLE_END -->
 
 <!-- DATA_SCHEMA_SPECIFICATION_END -->
-
-
-
-
-
 
 
 ### Formatierung 
