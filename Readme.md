@@ -82,8 +82,8 @@ Die Daten zur SARS-CoV-2-Viruslast im Abwasser der ESI-CorA-Standorte sind nach 
 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "ESI-CorA_Abwassersurveillance", "lang": "de"} -->
 
-Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/ESI-CorA_Abwassersurveillance.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Frictionless-Data Format](https://specs.frictionlessdata.io/) in [frictionless_data_schema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_ESI-CorA_Abwassersurveillance.json) hinterlegt:
-> [frictionless_data_schema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/frictionless_data_schema_ESI-CorA_Abwassersurveillance.json)
+Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/ESI-CorA_Abwassersurveillance.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/tableschema_ESI-CorA_Abwassersurveillance.json) hinterlegt:
+> [tableschema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/tableschema_ESI-CorA_Abwassersurveillance.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
 | Variable               | Typ    | Ausprägungen         | Beschreibung                                                                 |
