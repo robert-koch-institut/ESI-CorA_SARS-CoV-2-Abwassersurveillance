@@ -91,7 +91,7 @@ Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-ins
 | Bundesland             | string |                      | Bundesland in der sich die Kläranlage befindet                               |
 | Standort               | string |                      | Name der Kläranlage bzw. des Orts                                            |
 | Datum                  | date   | Format: `YYYY-MM-DD` | Startdatum der Probenahme an der Kläranlage.                                 |
-| Genkopien_normalisiert | number | Werte: ≥0            | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+| Genkopien_normalisiert | number | Werte: `≥0`          | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 

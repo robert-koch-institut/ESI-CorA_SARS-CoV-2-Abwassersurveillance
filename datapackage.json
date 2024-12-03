@@ -1,7 +1,7 @@
 {
   "name": "10.5281/zenodo.10781652",
   "title": "ESI-CorA: SARS-CoV-2-Abwassersurveillance",
-  "description": "Diese Datei gibt eine Übersicht über die Datensätze in diesem Open Data Repository. Informationen zum Data Package Standard finden Sie unter https://datapackage.org/. Mehr Information über diesen Datensatz finden sie auf Zenodo (https://doi.org/10.5281/zenodo.10781652) oder Github (https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance)",
+  "description": "Diese Datei gibt eine Übersicht über die im Datensatz enthaltenen Daten im Data Package Standard (https://datapackage.org). Der dokumentierte Datensatz ist auf den Plattformen Zenodo (https://doi.org/10.5281/zenodo.10781652) und Github (https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance) verfügbar.",
   "homepage": "https://doi.org/10.5281/zenodo.10781652",
   "resources": [
     {
