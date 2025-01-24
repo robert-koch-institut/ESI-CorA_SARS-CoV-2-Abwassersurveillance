@@ -3,12 +3,59 @@
     {
       "name": "Bundesland",
       "type": "string",
-      "description": "Bundesland in der sich die Kläranlage befindet"
+      "description": "Bundesland in der sich die Kläranlage befindet",
+      "constraints": {
+        "enum": [
+          "Baden-Württemberg",
+          "Bayern",
+          "Berlin",
+          "Brandenburg",
+          "Bremen",
+          "Hamburg",
+          "Hessen",
+          "Mecklenburg-Vorpommern",
+          "Niedersachsen",
+          "Nordrhein-Westfalen",
+          "Rheinland-Pfalz",
+          "Saarland",
+          "Sachsen",
+          "Sachsen-Anhalt",
+          "Schleswig-Holstein",
+          "Thüringen"
+        ]
+      }
     },
     {
       "name": "Standort",
       "type": "string",
-      "description": "Name der Kläranlage bzw. des Orts"
+      "description": "Name der Kläranlage bzw. des Orts",
+      "constraints": {
+        "enum": [          
+          "Altötting",
+          "Berlin",
+          "Bonn_Gesamt",
+          "Bonn_Nord",
+          "Bonn_Süd",
+          "Bramsche",
+          "Bremen",
+          "Büdingen",
+          "Dinslaken",
+          "Dresden",
+          "Grömitz",
+          "Hamburg_01",
+          "Hamburg_02",
+          "Hof",
+          "Jena",
+          "Köln",
+          "Neustadt an der Weinstraße",
+          "Potsdam",
+          "Rollsdorf",
+          "Rostock",
+          "Saarbrücken",
+          "Stuttgart",
+          "Tübingen"
+        ]
+      }
     },
     {
       "name": "Datum",

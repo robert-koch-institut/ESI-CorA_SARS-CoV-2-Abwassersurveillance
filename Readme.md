@@ -10,7 +10,9 @@ Nordufer 20
 <br>
 
 **Zitieren**   
-Robert Koch-Institut, Fachgebiet 32 (2024): "ESI-CorA: SARS-CoV-2-Abwassersurveillance". [Dataset] Zenodo. DOI:[10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653).
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Robert Koch-Institut, F. 32 . (2024). ESI-CorA: SARS-CoV-2-Abwassersurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653)
+<!-- CITATION_END -->
 
 ---
 
@@ -86,12 +88,12 @@ Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-ins
 > [tableschema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/tableschema_ESI-CorA_Abwassersurveillance.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable               | Typ    | Ausprägungen         | Beschreibung                                                                 |
-|:-----------------------|:-------|:---------------------|:-----------------------------------------------------------------------------|
-| Bundesland             | string |                      | Bundesland in der sich die Kläranlage befindet                               |
-| Standort               | string |                      | Name der Kläranlage bzw. des Orts                                            |
-| Datum                  | date   | Format: `YYYY-MM-DD` | Startdatum der Probenahme an der Kläranlage.                                 |
-| Genkopien_normalisiert | number | Werte: `≥0`          | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+| Variable               | Typ    | Ausprägungen                                                                                    | Beschreibung                                                                 |
+|:-----------------------|:-------|:------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| Bundesland             | string | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Bundesland in der sich die Kläranlage befindet                               |
+| Standort               | string | Werte: `Altötting`, `Berlin`, `Bonn_Gesamt`, `Bonn_Nord`, `Bonn_Süd`, `Bramsche`, `Bremen`, …   | Name der Kläranlage bzw. des Orts                                            |
+| Datum                  | date   | Format: `YYYY-MM-DD`                                                                            | Startdatum der Probenahme an der Kläranlage.                                 |
+| Genkopien_normalisiert | number | Werte: `≥0`                                                                                     | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
