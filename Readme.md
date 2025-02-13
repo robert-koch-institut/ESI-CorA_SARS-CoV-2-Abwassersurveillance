@@ -1,20 +1,24 @@
 Datensatzdokumentation  
 # ESI-CorA: SARS-CoV-2-Abwassersurveillance  
 
-
-[Robert Koch-Institut](https://rki.de) | RKI  
+[**Robert Koch-Institut | RKI**](https://rki.de)  
 Nordufer 20   
-13353 Berlin   
+13353 Berlin    
 
-**Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD-Kontaktstelle** 
 <br>
+
+**Beitragende**  
+[Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD-Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)&sup1;
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut | Abteilung 3](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/abt3-infektionsepidemiologie-node.html)
+
+---
 
 **Zitieren**   
 <!-- CITATION_START: {"citation_style": "apa"} -->
-Robert Koch-Institut, F. 32 . (2024). ESI-CorA: SARS-CoV-2-Abwassersurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653)
+Robert Koch-Institut (2024). ESI-CorA: SARS-CoV-2-Abwassersurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653)
 <!-- CITATION_END -->
 
----
 
 ## Informationen zum Datensatz und Entstehungskontext
 
