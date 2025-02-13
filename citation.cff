@@ -36,6 +36,4 @@ license: CC-BY-4.0
 doi: 10.5281/zenodo.10781653
 version: '2024-03-11T16:13:29+01:00'
 authors:
-  - family-names: Robert Koch-Institut
-    given-names: Fachgebiet 32
-    affiliation: Robert Koch-Institut
+  - name: Robert Koch-Institut

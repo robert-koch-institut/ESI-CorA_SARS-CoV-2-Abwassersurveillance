@@ -3,7 +3,7 @@
   "description": "<p>Das Vorhaben „Emergency Support Instrument - Nachweis von SARS-CoV-2 im Abwasser“ (ESI-CorA) lief von November 2021 bis März 2023. Zwanzig Kläranlagenstandorte wurden in Deutschland ausgewählt, die im Februar 2022 gestaffelt mit der Überwachung von SARS-CoV-2 im Abwasser begonnen haben. Das zentrale Ziel in ESI-CorA war die Vorbereitung und Durchführung der bundesweiten Pilotphase zur Überwachung von SARS-CoV-2 und seiner Varianten im Abwasser. Unter anderem wurde das Verfahren zur Normalisierung der Rohdaten, der angewandten PCR-Analytik und der Berechnung der Trenddynamiken untersucht.<br />\nWeitere Informationen sind im <a href=\"https://www.ptka.kit.edu/img/Projektblatt_ESI-CorA.pdf\">ESI-CorA Projektblatt</a> des Karlsruher Instituts für Technologie (KIT) zu finden.</p>\n",
   "creators": [
     {
-      "name": "Robert Koch-Institut, Fachgebiet 32",
+      "name": "Robert Koch-Institut",
       "affiliation": "Robert Koch-Institut"
     }
   ],

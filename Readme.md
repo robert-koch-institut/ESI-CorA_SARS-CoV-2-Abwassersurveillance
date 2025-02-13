@@ -1,18 +1,24 @@
 Datensatzdokumentation  
 # ESI-CorA: SARS-CoV-2-Abwassersurveillance  
 
-
-[Robert Koch-Institut](https://rki.de) | RKI  
+[**Robert Koch-Institut | RKI**](https://rki.de)  
 Nordufer 20   
-13353 Berlin   
+13353 Berlin    
 
-**Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD-Kontaktstelle** 
 <br>
 
-**Zitieren**   
-Robert Koch-Institut, Fachgebiet 32 (2024): "ESI-CorA: SARS-CoV-2-Abwassersurveillance". [Dataset] Zenodo. DOI:[10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653).
+**Beitragende**  
+[Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD-Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)&sup1;
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut | Abteilung 3](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/abt3-infektionsepidemiologie-node.html)
 
 ---
+
+**Zitieren**   
+<!-- CITATION_START: {"citation_style": "apa"} -->
+Robert Koch-Institut (2024). ESI-CorA: SARS-CoV-2-Abwassersurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653)
+<!-- CITATION_END -->
+
 
 ## Informationen zum Datensatz und Entstehungskontext
 
@@ -80,14 +86,23 @@ Die Daten zur SARS-CoV-2-Viruslast im Abwasser der ESI-CorA-Standorte sind nach 
 
 #### Variablen und Variablenausprägungen  
 
-Die Abwasserdaten enthalten die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen:
+<!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "ESI-CorA_Abwassersurveillance", "lang": "de"} -->
 
-| Variable |Typ | Ausprägung | Beschreibung| 
-| --- | ---| --- | ---|
-| Bundesland| String | ```Baden-Württemberg``` <br /> ```Bayern``` <br /> ```Berlin``` <br /> ... <br /> ```Thüringen```| Bundesland in der sich die Kläranlage befindet |
-| Standort | String | | Name der Kläranlage bzw. des Orts |
-| Datum | Datum | `jjjj-mm-tt` | Startdatum der Probenahme an der Kläranlage.  |
-| Genkopien_normalisiert | Ganze Zahl | `≥0` | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/ESI-CorA_Abwassersurveillance.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/tableschema_ESI-CorA_Abwassersurveillance.json) hinterlegt:
+> [tableschema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/tableschema_ESI-CorA_Abwassersurveillance.json)
+
+<!-- DATA_SCHEMA_TABLE_START -->
+| Variable               | Typ    | Ausprägungen                                                                                    | Beschreibung                                                                 |
+|:-----------------------|:-------|:------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| Bundesland             | string | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Bundesland in der sich die Kläranlage befindet                               |
+| Standort               | string | Werte: `Altötting`, `Berlin`, `Bonn_Gesamt`, `Bonn_Nord`, `Bonn_Süd`, `Bramsche`, `Bremen`, …   | Name der Kläranlage bzw. des Orts                                            |
+| Datum                  | date   | Format: `YYYY-MM-DD`                                                                            | Startdatum der Probenahme an der Kläranlage.                                 |
+| Genkopien_normalisiert | number | Werte: `≥0`                                                                                     | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+
+<!-- DATA_SCHEMA_TABLE_END -->
+
+<!-- DATA_SCHEMA_SPECIFICATION_END -->
+
 
 ### Formatierung 
 
