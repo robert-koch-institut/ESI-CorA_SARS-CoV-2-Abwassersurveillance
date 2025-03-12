@@ -25,8 +25,8 @@ Im hier veröffentlichten Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance" 
 
 ### Administrative und organisatorische Angaben
 Die Europäische Kommission hat das Pilotprojekt gefördert und gemeinsam mit dem Bundesministerium für Gesundheit (BMG), dem Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) sowie vom Bundesministerium für Bildung und Forschung (BMBF) verfolgt. Koordiniert wurde das Projekt vom Karlsruher Institut für Technologie (KIT), Projektträger Karlsruhe (PTKA). Konsortialpartner waren das Umweltbundesamt (UBA), das RKI und die Technische Universität Darmstadt (TUDa). 
-Das ESI-CorA-Projekt erfolgte in enger Zusammenarbeit der vier Konsortialpartner. Weitere Informationen zum Projekt und Aufgaben der Konsortialpartner können Sie dem [Kurzbericht](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/Abwassersurveillance/Bericht-ESI-CorA.pdf) entnehmen. 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-) Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
+Das ESI-CorA-Projekt erfolgte in enger Zusammenarbeit der vier Konsortialpartner. Weitere Informationen zum Projekt und Aufgaben der Konsortialpartner können Sie dem [Kurzbericht](https://www.rki.de/DE/Themen/Forschung-und-Forschungsdaten/Sentinels-Surveillance-Panel/Abwassersurveillance/Bericht-ESI-CorA.pdf?__blob=publicationFile&v=1) entnehmen. 
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-) Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
 ESI-CorA wurde von der Europäischen Kommission im Rahmen des Soforthilfeinstruments (Emergency Support Instrument – ESI) gefördert (No 060701/2021/864650/SUB/ENV.C2).
 
 ### Datenerhebung
@@ -53,7 +53,7 @@ $$ Gene_{Mittelwert\_normalisiert} = Gene_{Mittelwert} \cdot Volumenstrom \cdot 
 
 ### Datenauswertung
 
-Die Ergebnisse des Projekts ESI-CorA wurden in Form eines deutschsprachigen [Kurzberichts](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/Abwassersurveillance/Bericht-ESI-CorA.pdf) publiziert. 
+Die Ergebnisse des Projekts ESI-CorA wurden in Form eines deutschsprachigen [Kurzberichts](https://www.rki.de/DE/Themen/Forschung-und-Forschungsdaten/Sentinels-Surveillance-Panel/Abwassersurveillance/Bericht-ESI-CorA.pdf?__blob=publicationFile&v=1) publiziert. 
 ### Hinweise zur Datenauswertung
 Bei der Datenbewertung sind einige Besonderheiten zu beachten:
 
