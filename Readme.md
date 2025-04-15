@@ -15,9 +15,8 @@ Nordufer 20
 ---
 
 **Zitieren**   
-<!-- CITATION_START: {"citation_style": "apa"} -->
 Robert Koch-Institut (2024). ESI-CorA: SARS-CoV-2-Abwassersurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653)
-<!-- CITATION_END -->
+
 
 
 ## Informationen zum Datensatz und Entstehungskontext
@@ -31,8 +30,8 @@ Im hier veröffentlichten Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance" 
 
 ### Administrative und organisatorische Angaben
 Die Europäische Kommission hat das Pilotprojekt gefördert und gemeinsam mit dem Bundesministerium für Gesundheit (BMG), dem Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) sowie vom Bundesministerium für Bildung und Forschung (BMBF) verfolgt. Koordiniert wurde das Projekt vom Karlsruher Institut für Technologie (KIT), Projektträger Karlsruhe (PTKA). Konsortialpartner waren das Umweltbundesamt (UBA), das RKI und die Technische Universität Darmstadt (TUDa). 
-Das ESI-CorA-Projekt erfolgte in enger Zusammenarbeit der vier Konsortialpartner. Weitere Informationen zum Projekt und Aufgaben der Konsortialpartner können Sie dem [Kurzbericht](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/Abwassersurveillance/Bericht-ESI-CorA.pdf) entnehmen. 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-) Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Content/Institut/OrgEinheiten/MF/MF4/mf4_node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
+Das ESI-CorA-Projekt erfolgte in enger Zusammenarbeit der vier Konsortialpartner. Weitere Informationen zum Projekt und Aufgaben der Konsortialpartner können Sie dem [Kurzbericht](https://www.rki.de/DE/Themen/Forschung-und-Forschungsdaten/Sentinels-Surveillance-Panel/Abwassersurveillance/Bericht-ESI-CorA.pdf?__blob=publicationFile&v=1) entnehmen. 
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-) Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
 ESI-CorA wurde von der Europäischen Kommission im Rahmen des Soforthilfeinstruments (Emergency Support Instrument – ESI) gefördert (No 060701/2021/864650/SUB/ENV.C2).
 
 ### Datenerhebung
@@ -59,7 +58,7 @@ $$ Gene_{Mittelwert\_normalisiert} = Gene_{Mittelwert} \cdot Volumenstrom \cdot 
 
 ### Datenauswertung
 
-Die Ergebnisse des Projekts ESI-CorA wurden in Form eines deutschsprachigen [Kurzberichts](https://www.rki.de/DE/Content/Institut/OrgEinheiten/Abt3/FG32/Abwassersurveillance/Bericht-ESI-CorA.pdf) publiziert. 
+Die Ergebnisse des Projekts ESI-CorA wurden in Form eines deutschsprachigen [Kurzberichts](https://www.rki.de/DE/Themen/Forschung-und-Forschungsdaten/Sentinels-Surveillance-Panel/Abwassersurveillance/Bericht-ESI-CorA.pdf?__blob=publicationFile&v=1) publiziert. 
 ### Hinweise zur Datenauswertung
 Bei der Datenbewertung sind einige Besonderheiten zu beachten:
 
@@ -110,24 +109,62 @@ Die Daten sind im Datensatz als tabseparierte .tsv-Datei enthalten. Der verwende
 - Zeichensatz: UTF-8  
 - .tsv-Trennzeichen: Tab "\t"  
 
-### Metadaten
 
-Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:
+<!-- FOOTER_START: {"lang": "de"} -->
 
-> [Metadaten/](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/tree/main/Metadaten/)  
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/representation nachlesbar.   
 
+### Metadaten  
+
+Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
+
+> [Metadaten/](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/tree/main/Metadaten/) 
+
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+ 
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/zenodo.json)  
 
-## Hinweise zur Nachnutzung der Daten
+In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch der Datenstand in folgendem Format enthalten (Beispiel):  
 
-Offene Forschungsdaten des RKI werden auf [GitHub.com](http://GitHub.com/), [Zenodo.org](http://Zenodo.org/) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:
-- https://github.com/robert-koch-institut
-- https://zenodo.org/communities/robertkochinstitut
-- https://edoc.rki.de/
+```
+  "dates": [
+    {
+      "start": "2023-09-11T15:00:21+02:00",
+      "end": "2023-09-11T15:00:21+02:00",
+      "type": "Collected",
+      "description": "Date when the Dataset was created"
+    }
+  ],
+```    
 
-### Lizenz
 
-Der Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).
-Die im Datensatz bereitgestellten Daten sind unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle frei verfügbar. Das bedeutet, jede Person hat das Recht, die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/LIZENZ)-Datei des Datensatzes.
+Zusätzlich beschreiben wir tabellarische Daten mithilfe des [Data Package Standards](https://datapackage.org/).
+Ein Data Package ist eine strukturierte Sammlung von Daten und zugehörigen Metadaten, die den Austausch und die Wiederverwendung von Daten erleichtert. Es besteht aus einer datapackage.json-Datei, die zentrale Informationen wie die enthaltenen Ressourcen, ihre Formate und Schema-Definitionen beschreibt.
+
+Der Data Package Standard wird von der [Open Knowledge Foundation](https://okfn.org/) bereitgestellt und ist ein offenes Format, das eine einfache, maschinenlesbare Beschreibung von Datensätzen ermöglicht.
+
+Die Liste der in diesem Repository enthaltenen Daten ist in folgender Datei hinterlegt:
+
+> [datapackage.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/tree/main/datapackage.json)
+
+Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://datapackage.org/standard/table-schema/), das die Struktur der Tabellen beschreibt, einschließlich Spaltennamen, Datentypen und Validierungsregeln. Diese Schema-Dateien finden sich unter:
+
+> [Metadaten/schemas/](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/tree/main/Metadaten/schemas) 
+
+
+
+## Hinweise zur Nachnutzung der Daten  
+
+Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
+
+- https://zenodo.org/communities/robertkochinstitut  
+- https://github.com/robert-koch-institut  
+- https://gitlab.opencode.de/robert-koch-institut  
+- https://edoc.rki.de/  
+ 
+### Lizenz  
+
+Der Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
+
+Die im Datensatz bereitgestellten Daten sind, unter Bedingung der Namensnennung des Robert Koch-Instituts als Quelle, frei verfügbar. Das bedeutet, jede Person hat das Recht die Daten zu verarbeiten und zu verändern, Derivate des Datensatzes zu erstellen und sie für kommerzielle und nicht kommerzielle Zwecke zu nutzen. Weitere Informationen zur Lizenz finden sich in der [LICENSE](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/LICENSE) bzw. [LIZENZ](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/LIZENZ) Datei des Datensatzes.  
+<!-- FOOTER_END -->
