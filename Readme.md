@@ -1,21 +1,44 @@
-Datensatzdokumentation  
-# ESI-CorA: SARS-CoV-2-Abwassersurveillance  
+<!-- HEADER_START: {"lang": "de"} -->
 
-[**Robert Koch-Institut | RKI**](https://rki.de)  
-Nordufer 20   
-13353 Berlin    
+
+Dokumentation  
+# ESI-CorA: SARS-CoV-2-Abwassersurveillance
+
+<br> 
+<br> 
+<br> 
+
+[**Robert Koch-Institut**](https://www.rki.de/)
+
+<br> 
+
+**Beitragende**   
+[Fachgebiet 32](https://www.rki.de/fg32)&sup1;
+
+&emsp;&emsp;&sup1; [Robert Koch-Institut](https://www.rki.de/)
+
+<br> 
+
+**Zitieren**  
+Robert Koch-Institut. (2024). ESI-CorA: SARS-CoV-2-Abwassersurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653)
 
 <br>
 
-**Beitragende**  
-[Fachgebiet 32 | Surveillance und elektronisches Melde- und Informationssystem (DEMIS) | ÖGD-Kontaktstelle](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/FG32/fg32-surveillance-und-elektronisches-melde-und-informationssystem-demis-oegd-kontaktstelle-node.html)&sup1;
 
-&emsp;&emsp;&sup1; [Robert Koch-Institut | Abteilung 3](https://www.rki.de/DE/Institut/Organisation/Abteilungen/Abteilung-3/abt3-infektionsepidemiologie-node.html)
+**Zusammenfassung**    
+Das Projekt "ESI-CorA: SARS-CoV-2-Abwassersurveillance" wurde zwischen November 2021 und März 2023 vom Robert Koch-Institut mit dem Ziel durchgeführt, SARS-CoV-2 und seine Varianten im Abwasser zu überwachen. Zu diesem Zweck wurden in 20 Kläranlagen in Deutschland als Pilotstandorte regelmäßig Abwasserproben entnommen und auf SARS-CoV-2-Viruslast untersucht. Die erhobenen Daten umfassen die normalisierte Viruslast für jedes Messdatum und jede Kläranlage.
 
----
+<br>
 
-**Zitieren**   
-Robert Koch-Institut (2024). ESI-CorA: SARS-CoV-2-Abwassersurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653)
+**Inhaltsverzeichnis** 
+<!-- TOC_START: {"heading_depth": 2} -->
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+<!-- TOC_END -->
+
+<br>
+
+<!-- HEADER_END -->
 
 
 
@@ -31,7 +54,7 @@ Im hier veröffentlichten Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance" 
 ### Administrative und organisatorische Angaben
 Die Europäische Kommission hat das Pilotprojekt gefördert und gemeinsam mit dem Bundesministerium für Gesundheit (BMG), dem Bundesministerium für Umwelt, Naturschutz, nukleare Sicherheit und Verbraucherschutz (BMUV) sowie vom Bundesministerium für Bildung und Forschung (BMBF) verfolgt. Koordiniert wurde das Projekt vom Karlsruher Institut für Technologie (KIT), Projektträger Karlsruhe (PTKA). Konsortialpartner waren das Umweltbundesamt (UBA), das RKI und die Technische Universität Darmstadt (TUDa). 
 Das ESI-CorA-Projekt erfolgte in enger Zusammenarbeit der vier Konsortialpartner. Weitere Informationen zum Projekt und Aufgaben der Konsortialpartner können Sie dem [Kurzbericht](https://www.rki.de/DE/Themen/Forschung-und-Forschungsdaten/Sentinels-Surveillance-Panel/Abwassersurveillance/Bericht-ESI-CorA.pdf?__blob=publicationFile&v=1) entnehmen. 
-Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-) Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/DE/Institut/Organisation/Abteilungen/MFI/MF4/mf4-fach-und-forschungsdatenmanagement-node.html). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
+Die Veröffentlichung der Daten, die Datenkuration sowie das Qualitätsmanagement der (Meta-) Daten erfolgt durch das Fachgebiet [MF 4 | Fach- und Forschungsdatenmanagement](https://www.rki.de/mf4). Fragen zum Datenmanagement können an das Open Data Team des Fachgebiets MF4 gerichtet werden [OpenData@rki.de](mailto:OpenData@rki.de).  
 ESI-CorA wurde von der Europäischen Kommission im Rahmen des Soforthilfeinstruments (Emergency Support Instrument – ESI) gefördert (No 060701/2021/864650/SUB/ENV.C2).
 
 ### Datenerhebung
