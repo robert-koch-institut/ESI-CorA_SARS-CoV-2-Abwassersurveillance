@@ -94,6 +94,7 @@ Bei der Datenbewertung sind einige Besonderheiten zu beachten:
 ### Inhalt und Aufbau des Datensatzes
 
 Der als Open Data veröffentliche Datensatz enthält:
+
 * SARS-CoV-2-Viruslast im Abwasser der meldenden Standorte
 * Datensatzdokumentation in deutscher Sprache
 * Lizenz-Datei mit der Nutzungslizenz des Datensatzes in Deutsch und Englisch
@@ -128,9 +129,10 @@ Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-ins
 
 ### Formatierung 
 
-Die Daten sind im Datensatz als tabseparierte .tsv-Datei enthalten. Der verwendete Zeichensatz der .tsv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Tab "\t".
+Die Daten sind im Datensatz als Tab-separierte .tsv-Datei enthalten. Der verwendete Zeichensatz der .tsv-Datei ist UTF-8. Trennzeichen der einzelnen Werte ist ein Tab `\t`.
+
 - Zeichensatz: UTF-8  
-- .tsv-Trennzeichen: Tab "\t"  
+- .tsv-Trennzeichen: Tab `\t`  
 
 
 <!-- FOOTER_START: {"lang": "de"} -->
