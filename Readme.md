@@ -2,6 +2,7 @@
 
 
 Dokumentation  
+
 # ESI-CorA: SARS-CoV-2-Abwassersurveillance
 
 <br> 
@@ -20,20 +21,23 @@ Dokumentation
 <br> 
 
 **Zitieren**  
+<!-- CITATION_START: {"citation_style": "apa"} -->  
 Robert Koch-Institut. (2024). ESI-CorA: SARS-CoV-2-Abwassersurveillance [Data set]. Zenodo. [https://doi.org/10.5281/zenodo.10781653](https://doi.org/10.5281/zenodo.10781653)
+<!-- CITATION_END -->
+
 
 <br>
-
 
 **Zusammenfassung**    
 Das Projekt "ESI-CorA: SARS-CoV-2-Abwassersurveillance" wurde zwischen November 2021 und März 2023 vom Robert Koch-Institut mit dem Ziel durchgeführt, SARS-CoV-2 und seine Varianten im Abwasser zu überwachen. Zu diesem Zweck wurden in 20 Kläranlagen in Deutschland als Pilotstandorte regelmäßig Abwasserproben entnommen und auf SARS-CoV-2-Viruslast untersucht. Die erhobenen Daten umfassen die normalisierte Viruslast für jedes Messdatum und jede Kläranlage.
 
 <br>
 
-**Inhaltsverzeichnis** 
+**Inhaltsverzeichnis**  
+
 <!-- TOC_START: {"heading_depth": 2} -->
-  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)
-  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)
+  - [Informationen zum Datensatz und Entstehungskontext](#informationen-zum-datensatz-und-entstehungskontext)  
+  - [Hinweise zur Nachnutzung der Daten](#hinweise-zur-nachnutzung-der-daten)  
 <!-- TOC_END -->
 
 <br>
@@ -44,10 +48,10 @@ Das Projekt "ESI-CorA: SARS-CoV-2-Abwassersurveillance" wurde zwischen November 
 
 ## Informationen zum Datensatz und Entstehungskontext
 
-Das Vorhaben „Emergency Support Instrument - Nachweis von SARS-CoV-2 im Abwasser“ (ESI-CorA) lief von November 2021 bis März 2023. Zwanzig Kläranlagenstandorte wurden in Deutschland ausgewählt, die im Februar 2022 gestaffelt mit der Überwachung von SARS-CoV-2 im Abwasser begonnen haben. Das zentrale Ziel in ESI-CorA war die Vorbereitung und Durchführung der bundesweiten Pilotphase zur Überwachung von SARS-CoV-2 und seiner Varianten im Abwasser. Unter anderem wurde das Verfahren zur Normalisierung der Rohdaten, der angewandten PCR-Analytik und der Berechnung der Trenddynamiken untersucht. 
+Das Vorhaben "Emergency Support Instrument - Nachweis von SARS-CoV-2 im Abwasser" (ESI-CorA) lief von November 2021 bis März 2023. Zwanzig Kläranlagenstandorte wurden in Deutschland ausgewählt, die im Februar 2022 gestaffelt mit der Überwachung von SARS-CoV-2 im Abwasser begonnen haben. Das zentrale Ziel in ESI-CorA war die Vorbereitung und Durchführung der bundesweiten Pilotphase zur Überwachung von SARS-CoV-2 und seiner Varianten im Abwasser. Unter anderem wurde das Verfahren zur Normalisierung der Rohdaten, der angewandten PCR-Analytik und der Berechnung der Trenddynamiken untersucht. 
 Abwassersurveillance ist die systematische Überwachung von Erregern im Abwasser mit dem Ziel Gesundheitsschutzmaßnahmen zu steuern. Abwasserdaten erlauben keine genaue Einschätzung von Krankheitsschwere oder Belastung des Gesundheitssystems. Bei der epidemiologischen Bewertung sollten die Daten stets mit anderen Indikatoren, z.B. aus der syndromischen Surveillance, gemeinsam bewertet werden. Weitere Informationen sind im [ESI-CorA Projektblatt](https://www.ptka.kit.edu/img/Projektblatt_ESI-CorA.pdf) des Karlsruher Instituts für Technologie (KIT) zu finden.
 
-![Standorte ESI-CorA](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/.github/pictures/standorte.png?raw=true "Standorte ESI-CorA")
+!["Standorte ESI-CorA"](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/.github/pictures/standorte.png?raw=true)
 
 Im hier veröffentlichten Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance" wird die normalisierte SARS-CoV-2-Viruslast von den 20 EU-geförderten Pilotstandorten im ESI-CorA-Projekt für den oben beschriebenen Zeitraum bereitgestellt.
 
@@ -63,7 +67,7 @@ Im Rahmen des Projekts wurden detaillierte Handreichungen zur Probennahme und La
 An jeder der 20 EU-geförderten Kläranlagen wurden in aller Regel zwei Mal pro Woche Rohabwasserproben entnommen und zusammen mit den entsprechenden Begleitparametern (z.B. Wetterdaten, Volumenstrom, pH-Wert, Temperatur), die notwendig für die Charakterisierung der Abwassersituation während der Probenahme waren, erhoben. Rohabwasserproben sollten nach dem Sandfang der Kläranlage entnommen werden. Das Probenahmevolumen sollte einen Liter betragen und in luftdichte, verschließbare Polyethylenflaschen abgefüllt werden. Eine 24-Stunden-Mischprobe wurde bevorzugt, die mit einem automatisierten Probennehmer durchgeführt wurde. Die Beprobung sollte möglichst von Montag auf Dienstag und von Mittwoch auf Donnerstag durchgeführt werden. 
 Die Rohabwasserproben wurden an entsprechende Labore versandt, wo die Aufkonzentrierung, Extraktion der viralen Nukleinsäure und Quantifizierung der viralen Gensequenzen durch dPCR oder qRT-PCR erfolgte. Mindestens zwei repräsentative SARS-CoV-2-Genfragmente (N1, N2, N3, E, ORF oder RdRp) sollten bestimmt werden. 
 
-![Datenfluss ESI-CorA](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/.github/pictures/pipeline.png?raw=true "Datenfluss ESI-CorA")
+!["Datenfluss ESI-CorA"](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/.github/pictures/pipeline.png?raw=true)
  
 Für das Datenmanagement wurde eine digitale Dateninfrastruktur genutzt, die auf ArcGIS Online von ESRI basiert. Die Daten wurden zunächst mit der ArcGIS Survey123 App, welche als mobile App oder am Computer im Browser zu bedienen ist, in die Dateninfrastruktur eingepflegt. Die Kläranlage, die die Probe entnommen hat, hat den Datensatz angelegt und die Angaben zur Probennahme entsprechend eingetragen. Die Labornachweise konnten im nächsten Schritt erfasst werden dem Probendatensatz über eine eindeutige Proben-ID zugeordnet werden. 
 
@@ -82,13 +86,14 @@ $$ Gene_{Mittelwert\_normalisiert} = Gene_{Mittelwert} \cdot Volumenstrom \cdot 
 ### Datenauswertung
 
 Die Ergebnisse des Projekts ESI-CorA wurden in Form eines deutschsprachigen [Kurzberichts](https://www.rki.de/DE/Themen/Forschung-und-Forschungsdaten/Sentinels-Surveillance-Panel/Abwassersurveillance/Bericht-ESI-CorA.pdf?__blob=publicationFile&v=1) publiziert. 
+
 ### Hinweise zur Datenauswertung
 Bei der Datenbewertung sind einige Besonderheiten zu beachten:
 
 * Es wurden an den unterschiedlichen Standorten verschiedene Zielgene gemessen. 
 * An zwei Kläranlagen (Hof und Rollsdorf) kam es während des Projekts zu einem Laborwechsel. Die Zeitreihen sind zwischen 31.07.2022 und 23.08.2022 unterbrochen, bis das neue Labor vollständig übernommen hat.
-* Der Standort Bonn ist im Datensatz drei Mal vertreten: “Bonn Süd”, “Bonn Nord” und “Bonn Gesamt”. Bonn Nord und Süd sind zwei Zuläufe der gleichen Kläranlage und wurden separat beprobt. Während des Projekts musste der Zulauf Bonn Nord aufgrund von Wartungsarbeiten geschlossen werden. Das Abwasser wurde umgeleitet nach Bonn Süd. Für diesen Zeitraum sind die Daten als “Bonn Gesamt” zusammengefasst.
-* Der Standort Hamburg ist mit zwei Zuläufen vertreten: “Hamburg Nord” und “Hamburg Süd”.
+* Der Standort Bonn ist im Datensatz drei Mal vertreten: "Bonn Süd", "Bonn Nord" und "Bonn Gesamt". Bonn Nord und Süd sind zwei Zuläufe der gleichen Kläranlage und wurden separat beprobt. Während des Projekts musste der Zulauf Bonn Nord aufgrund von Wartungsarbeiten geschlossen werden. Das Abwasser wurde umgeleitet nach Bonn Süd. Für diesen Zeitraum sind die Daten als "Bonn Gesamt" zusammengefasst.
+* Der Standort Hamburg ist mit zwei Zuläufen vertreten: "Hamburg Nord" und "Hamburg Süd".
 * Lag die Viruslast unter der Bestimmungsgrenze (BG), so wurde 0,5 * BG als Wert eingetragen. 
 
 ### Inhalt und Aufbau des Datensatzes
@@ -112,15 +117,16 @@ Die Daten zur SARS-CoV-2-Viruslast im Abwasser der ESI-CorA-Standorte sind nach 
 <!-- DATA_SCHEMA_SPECIFICATION_START: {"id": "ESI-CorA_Abwassersurveillance", "lang": "de"} -->
 
 Die Datei [ESI-CorA_Abwassersurveillance.tsv](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/ESI-CorA_Abwassersurveillance.tsv) enthält die in der folgenden Tabelle abgebildeten Variablen und deren Ausprägungen. Ein maschinenlesbares Datenschema ist im [Data Package Standard](https://datapackage.org/) in [tableschema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/tableschema_ESI-CorA_Abwassersurveillance.json) hinterlegt:
+
 > [tableschema_ESI-CorA_Abwassersurveillance.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/schemas/tableschema_ESI-CorA_Abwassersurveillance.json)
 
 <!-- DATA_SCHEMA_TABLE_START -->
-| Variable               | Typ    | Ausprägungen                                                                                    | Beschreibung                                                                 |
-|:-----------------------|:-------|:------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
-| Bundesland             | string | Werte: `Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Bundesland in der sich die Kläranlage befindet                               |
-| Standort               | string | Werte: `Altötting`, `Berlin`, `Bonn_Gesamt`, `Bonn_Nord`, `Bonn_Süd`, `Bramsche`, `Bremen`, …   | Name der Kläranlage bzw. des Orts                                            |
-| Datum                  | date   | Format: `YYYY-MM-DD`                                                                            | Startdatum der Probenahme an der Kläranlage.                                 |
-| Genkopien_normalisiert | number | Werte: `≥0`                                                                                     | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
+| Variable               | Typ    | Ausprägungen                                                                                       | Beschreibung                                                                 |
+|:-----------------------|:-------|:---------------------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------|
+| Bundesland             | string | Werte:<br>`Baden-Württemberg`, `Bayern`, `Berlin`, `Brandenburg`, `Bremen`, `Hamburg`, `Hessen`, … | Bundesland in der sich die Kläranlage befindet                               |
+| Standort               | string | Werte:<br>`Altötting`, `Berlin`, `Bonn_Gesamt`, `Bonn_Nord`, `Bonn_Süd`, `Bramsche`, `Bremen`, …   | Name der Kläranlage bzw. des Orts                                            |
+| Datum                  | date   | Format: `YYYY-MM-DD`                                                                               | Startdatum der Probenahme an der Kläranlage.                                 |
+| Genkopien_normalisiert | number | Werte: `≥0`                                                                                        | SARS-CoV-2-Viruslast nach Abwasserdurchfluss normalisiert. (Genkopien/Liter) |
 
 <!-- DATA_SCHEMA_TABLE_END -->
 
@@ -137,15 +143,13 @@ Die Daten sind im Datensatz als Tab-separierte .tsv-Datei enthalten. Der verwend
 
 <!-- FOOTER_START: {"lang": "de"} -->
 
-
-
 ### Metadaten  
 
 Zur Erhöhung der Auffindbarkeit sind die bereitgestellten Daten mit Metadaten beschrieben. Über GitHub Actions werden Metadaten an die entsprechenden Plattformen verteilt. Für jede Plattform existiert eine spezifische Metadatendatei, diese sind im Metadatenordner hinterlegt:  
 
 > [Metadaten/](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/tree/main/Metadaten/) 
 
-Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter https://developers.zenodo.org/#representation nachlesbar.
+Versionierung und DOI-Vergabe erfolgt über [Zenodo.org](https://zenodo.org). Die für den Import in Zenodo bereitgestellten Metadaten sind in der [zenodo.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/zenodo.json) hinterlegt. Die Dokumentation der einzelnen Metadatenvariablen ist unter [https://developers.zenodo.org/#representation](https://developers.zenodo.org/#representation) nachlesbar.
  
 > [Metadaten/zenodo.json](https://github.com/robert-koch-institut/ESI-CorA_SARS-CoV-2-Abwassersurveillance/blob/main/Metadaten/zenodo.json)  
 
@@ -156,8 +160,8 @@ In der zenodo.json ist neben dem Publikationsdatum (`"publication_date"`) auch d
     {
       "start": "2023-09-11T15:00:21+02:00",
       "end": "2023-09-11T15:00:21+02:00",
-      "type": "Collected",
-      "description": "Date when the Dataset was created"
+      "type": "Created",
+      "description": "Date when the published data was created"
     }
   ],
 ```    
@@ -182,11 +186,13 @@ Für tabellarische Daten definieren wir zusätzlich ein [Table Schema](https://d
 
 Offene Forschungsdaten des RKI werden auf [Zenodo.org](http://Zenodo.org/), [GitHub.com](http://GitHub.com/), [OpenCoDE](https://gitlab.opencode.de) und [Edoc.rki.de](http://Edoc.rki.de/) bereitgestellt:  
 
-- https://zenodo.org/communities/robertkochinstitut  
-- https://github.com/robert-koch-institut  
-- https://gitlab.opencode.de/robert-koch-institut  
-- https://edoc.rki.de/  
- 
+- [https://zenodo.org/communities/robertkochinstitut](https://zenodo.org/communities/robertkochinstitut)  
+- [https://github.com/robert-koch-institut](https://github.com/robert-koch-institut)  
+- [https://gitlab.opencode.de/robert-koch-institut](https://gitlab.opencode.de/robert-koch-institut)  
+- [https://edoc.rki.de/](https://edoc.rki.de/) 
+
+
+
 ### Lizenz  
 
 Der Datensatz "ESI-CorA: SARS-CoV-2-Abwassersurveillance" ist lizenziert unter der [Creative Commons Namensnennung 4.0 International Public License | CC-BY 4.0 International](https://creativecommons.org/licenses/by/4.0/deed.de).  
